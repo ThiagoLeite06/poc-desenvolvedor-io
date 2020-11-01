@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="header__wrapper">
+    Logo
+    <nav class="header__nav">
+      <ul>
+        <li>
+          <a class="nav__link"
+            routerLinkActive="nav__link--active"
+            [routerLink]="['/home']"
+            [routerLinkActiveOptions]="{ exact: true}"
+            >Home
+          </a>
+        </li>
+        <li>
+          <a class="nav__link"
+            routerLinkActive="nav__link--active"
+            [routerLink]="['/promise']"
+            [routerLinkActiveOptions]="{ exact: true}"
+            >Promise
+          </a>
+        </li>
+
+    </ul>
+    </nav>
+  </div>
+
+</header>

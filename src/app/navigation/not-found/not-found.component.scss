@@ -1,0 +1,18 @@
+.not-found {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0c2a4;
+    height: 100%;
+  }
+
+  &__title {
+    display: block;
+  }
+
+  &__image {
+    width: 500px;
+  }
+}
